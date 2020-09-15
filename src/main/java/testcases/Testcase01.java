@@ -27,6 +27,9 @@ public class Testcase01 extends TestBase {
 		
 		Assert.assertEquals(homepageText, "Automation Practice Website");
 		logger.log(LogStatus.PASS, "validated the home page text");
+		
+		Assert.assertTrue(true);
+		
 	}
 	
 	@Test(enabled=true, groups= {"regression"})
