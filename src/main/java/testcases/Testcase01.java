@@ -29,7 +29,7 @@ public class Testcase01 extends TestBase {
 		logger.log(LogStatus.PASS, "validated the home page text");
 		
 		Assert.assertTrue(true);
-		
+		Assert.assertTrue(true);
 	}
 	
 	@Test(enabled=true, groups= {"regression"})

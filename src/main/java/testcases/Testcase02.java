@@ -29,6 +29,9 @@ public class Testcase02 extends TestBase {
 		signInObj.setpassword(prop.getProperty("password"));
 		signInObj.getSignInButton().click();
 		logger.log(LogStatus.PASS, "User Login Done");
+		
+		Assert.assertTrue(true);
+		
 	}
 	
 	
