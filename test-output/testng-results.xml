@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92296" started-at="2020-09-10T04:16:34Z" finished-at="2020-09-10T04:18:06Z">
+    <groups>
+      <group name="regression">
+        <method signature="Testcase04.Valiate_Login()[pri:0, instance:testcases.Testcase04@295cf707]" name="Valiate_Login" class="testcases.Testcase04"/>
+        <method signature="Testcase04.Validate_LoginAnLogout()[pri:0, instance:testcases.Testcase04@295cf707]" name="Validate_LoginAnLogout" class="testcases.Testcase04"/>
+      </group> <!-- regression -->
+      <group name="login">
+        <method signature="Testcase04.Valiate_Login()[pri:0, instance:testcases.Testcase04@295cf707]" name="Valiate_Login" class="testcases.Testcase04"/>
+        <method signature="Testcase04.Validate_LoginAnLogout()[pri:0, instance:testcases.Testcase04@295cf707]" name="Validate_LoginAnLogout" class="testcases.Testcase04"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="task" duration-ms="92296" started-at="2020-09-10T04:16:34Z" finished-at="2020-09-10T04:18:06Z">
+      <class name="testcases.Testcase04">
+        <test-method status="PASS" signature="testbefore()[pri:0, instance:testcases.Testcase04@295cf707]" name="testbefore" is-config="true" duration-ms="1857" started-at="2020-09-10T09:46:34Z" finished-at="2020-09-10T09:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefore -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Testcase04@295cf707]" name="setup" is-config="true" duration-ms="22663" started-at="2020-09-10T09:46:36Z" finished-at="2020-09-10T09:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Valiate_Login()[pri:0, instance:testcases.Testcase04@295cf707]" name="Valiate_Login" duration-ms="7633" started-at="2020-09-10T09:46:58Z" finished-at="2020-09-10T09:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valiate_Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.Testcase04@295cf707]" name="closeBrowser" is-config="true" duration-ms="4303" started-at="2020-09-10T09:47:06Z" finished-at="2020-09-10T09:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Testcase04@295cf707]" name="setup" is-config="true" duration-ms="16519" started-at="2020-09-10T09:47:10Z" finished-at="2020-09-10T09:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Validate_LoginAnLogout()[pri:0, instance:testcases.Testcase04@295cf707]" name="Validate_LoginAnLogout" duration-ms="12141" started-at="2020-09-10T09:47:27Z" finished-at="2020-09-10T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_LoginAnLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.Testcase04@295cf707]" name="closeBrowser" is-config="true" duration-ms="3278" started-at="2020-09-10T09:47:39Z" finished-at="2020-09-10T09:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Testcase04@295cf707]" name="setup" is-config="true" duration-ms="18481" started-at="2020-09-10T09:47:42Z" finished-at="2020-09-10T09:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testing()[pri:0, instance:testcases.Testcase04@295cf707]" name="testing" duration-ms="3" started-at="2020-09-10T09:48:01Z" finished-at="2020-09-10T09:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.Testcase04@295cf707]" name="closeBrowser" is-config="true" duration-ms="5207" started-at="2020-09-10T09:48:01Z" finished-at="2020-09-10T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testafter()[pri:0, instance:testcases.Testcase04@295cf707]" name="testafter" is-config="true" duration-ms="129" started-at="2020-09-10T09:48:06Z" finished-at="2020-09-10T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testafter -->
+      </class> <!-- testcases.Testcase04 -->
+    </test> <!-- task -->
+  </suite> <!-- Suite -->
+</testng-results>

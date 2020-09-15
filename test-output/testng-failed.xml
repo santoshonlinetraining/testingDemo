@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listener.Listeners"/>
+  </listeners>
+  <test name="task(failed)">
+    <classes>
+      <class name="testcases.Testcase04">
+        <methods>
+          <include name="testing"/>
+          <include name="Valiate_Login"/>
+          <include name="testbefore"/>
+          <include name="setup"/>
+          <include name="Validate_LoginAnLogout"/>
+        </methods>
+      </class> <!-- testcases.Testcase04 -->
+    </classes>
+  </test> <!-- task(failed) -->
+</suite> <!-- Failed suite [Suite] -->
